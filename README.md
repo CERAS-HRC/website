@@ -25,12 +25,13 @@ The static site is generated in `_site/` (ignored by Git).
 | --- | --- |
 | `index.md` | Home page heading lines, introduction, and concept image |
 | `mission.md` | Mission sections and engineering objectives |
-| `progress.md`, `plan.md` | Redirects to the homepage work timeline |
+| `progress.md` | Redirects to the homepage work timeline |
+| `plan.md` | Plan page: yearly roadmap and partner section (content in `_data/plan.yml`) |
 | `sponsor.md` | Sponsorship heading, school funding update, and corporate partnership announcement text |
 | `join-us.md` | Discord page heading |
 | `_data/work.yml` | Homepage timeline entries, newest first, with dates, copy, images, and captions |
 | `_data/progress.yml` | Completed development checks, simulator screenshot, and draft-arm explanation |
-| `_data/plan.yml` | Timeline periods, phases, and planned work |
+| `_data/plan.yml` | Plan page phases (with optional `points`) and the partner section |
 | `_data/contact.yml` | Discord invite, QR image, and sponsorship email |
 | `_data/navigation.yml` | Navigation labels and links |
 | `_config.yml` | Metadata and hosting path |
@@ -52,7 +53,7 @@ sponsor_email_placeholder: true              # Set false once the email is real
 
 The Join us page has a centered heading and QR block. The current QR is clearly labeled as a placeholder and encodes `https://example.com/ceras-discord`. Replace the PNG with a QR for the real invite, and set `discord_url` to the same address. This makes the QR clickable and adds a direct join link for people browsing on their phones. Keep a white quiet zone around the QR so it scans correctly.
 
-The Sponsor page centers the contact heading, funding update, and prominent email address. Its copy states that Northwestern currently provides financial support, corporate partnership discussions are active, and the partnership list will be announced soon. The email has a working `mailto:` link and uses the reserved `example.com` domain as filler. No pitch download appears on the site.
+The Sponsor page centers the contact heading, funding update, and prominent email address. Its copy states that Northwestern's robotics faculty currently provides financial support, corporate partnership discussions are active, and the partnership list will be announced soon, and invites requests for specific updates and sponsorship tiers. The email has a working `mailto:` link and uses the reserved `example.com` domain as filler. No pitch download appears on the site.
 
 ## Design and assets
 

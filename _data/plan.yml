@@ -1,20 +1,33 @@
-- period: Fall 2026
-  status: Current
-  title: Design and validation
-  description: Develop custom-arm CAD and manufacturing plans. Simulate drumming and test the control software on OpenArm.
-- period: Winter 2027
-  status: Planned
-  title: Manufacturing and assembly
-  description: Manufacture and assemble arm prototypes, then test the control software on the custom hardware.
-- period: Spring 2027
-  status: Planned
-  title: Integration and demonstration
-  description: Complete a pair of arms for drumming alongside people. Develop human–robot interaction and robot learning.
-- period: 2027–2028
-  status: Planned
-  title: Torso, neck and integration
-  description: Build the torso and neck. Integrate sensing and learned behaviors across the upper body, and begin research on legs and locomotion.
-- period: 2028–2029
-  status: Planned
-  title: Legs and whole-body coordination
-  description: Build and integrate the legs, then develop whole-body coordination. Extend collaboration beyond music to tasks where robots learn from and work alongside people.
+# Plan page phases, in order. `points` and `partner` are optional.
+phases:
+  - period: 2026–2027
+    status: Current
+    title: Collaborative upper-body humanoid
+    description: By the end of the 2026–2027 academic year, we'll have a full upper-body humanoid robot with two 7-DOF arms and perception, capable of collaborating with people and playing music.
+    points:
+      - Experiment with connecting vision-language-action models (VLAs), large language models and world models to make the robot a more capable creative collaborator.
+      - Adapt the robot into a general-purpose hardware platform for research and tasks beyond music.
+  - period: 2027–2028
+    status: Planned
+    title: Full-body humanoid
+    description: Integrate the upper body into a full-body humanoid robot capable of walking and performing dexterous tasks.
+  - period: 2028–2029
+    status: Planned
+    title: Beyond art
+    description: Explore wider applications of our humanoid beyond art, and improve our designs in dexterity, actuation, perception and intelligence.
+    points:
+      - Bring the robot into real settings, from live performances to classrooms and labs, and study how people learn to work alongside it.
+      - Share our designs and tools with the robotics community so other teams can build on the platform.
+
+partner:
+  title: A platform for partners
+  intro: Our humanoid is a real-world showcase for the technology inside it, and a direct line to the engineers who build it.
+  points:
+    - AI on physical hardware — a live demonstration of language models, VLAs and world models controlling a real robot.
+    - Edge compute and processors powering real-time perception and control.
+    - Motors, actuators and components proven under real loads, from off-the-shelf parts to our custom linkages.
+    - Design and engineering tools in daily use by students who carry them into industry.
+    - Recruiting access to Northwestern engineers with hands-on humanoid experience, for teams hiring in Chicago and beyond.
+    - Visibility through live performances, campus events and online content followed by engineers.
+  link_label: Sponsor CERAS
+  link_url: /sponsor/

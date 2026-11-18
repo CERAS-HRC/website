@@ -5,11 +5,24 @@ layout: default
 <table class="timeline">
   <thead><tr><th scope="col">Period</th><th scope="col">Milestone</th></tr></thead>
   <tbody>
-    {% for phase in site.data.plan %}
+    {% for phase in site.data.plan.phases %}
     <tr>
       <th scope="row">{{ phase.period }}<span class="status">{{ phase.status }}</span></th>
-      <td><h2>{{ phase.title }}</h2><p>{{ phase.description }}</p></td>
+      <td>
+        <h2>{{ phase.title }}</h2>
+        <p>{{ phase.description }}</p>
+        {% if phase.points %}<ul class="timeline-points">{% for point in phase.points %}<li>{{ point }}</li>{% endfor %}</ul>{% endif %}
+      </td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
+{% assign partner = site.data.plan.partner %}
+{% if partner %}
+<section class="plan-partner content-section" aria-labelledby="partner-title">
+  <h2 id="partner-title">{{ partner.title }}</h2>
+  <p>{{ partner.intro }}</p>
+  <ul class="timeline-points">{% for point in partner.points %}<li>{{ point }}</li>{% endfor %}</ul>
+  <div class="page-actions"><a class="text-link" href="{{ partner.link_url | relative_url }}">{{ partner.link_label }} <span aria-hidden="true">↗</span></a></div>
+</section>
+{% endif %}
