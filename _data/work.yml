@@ -1,5 +1,22 @@
 # Newest first. Copy an entry to add an update; give it a unique id.
 # Each images item has a path, alt text, and caption. Omit images for text-only updates.
+- id: skeleton-arm
+  period: November 2026 · Fall Quarter
+  title: Skeleton arm and simulation tools
+  bullets:
+    - Hardware team — designed our current dual skeleton arm using FEA and design for manufacturing (DFM).
+    - Built an FEA dynamics suite that finds force and moment values from our arm geometry and motion requirements.
+    - Software team — set up a MIDI drummer simulation for reinforcement learning.
+  images:
+    - path: /assets/images/skeleton-arm-cad.webp
+      alt: CAD render of CERAS's dual skeleton arm with drumsticks, mounted on an aluminum extrusion stand.
+      caption: Current skeleton arm · Designed with FEA and DFM
+    - path: /assets/images/fea-dynamics-suite.webp
+      alt: CERAS's FEA dynamics simulation suite showing per-link force and moment extremes, a load histogram, and a 3D view of a link.
+      caption: FEA dynamics simulation suite · Forces and moments per link
+    - path: /assets/images/midi-drummer-rl-sim.webp
+      alt: Simulated robot arms playing a drum kit, with a MIDI note timeline comparing target hits to actual contacts.
+      caption: MIDI drummer simulation · Set up for reinforcement learning
 - id: development
   period: October 2026 · Fall Quarter
   title: Developing the humanoid
@@ -8,10 +25,10 @@
     - Software team — OpenArm drumming simulation and RL experiments for later transfer to our custom arms.
     - Achieved sim-to-real transfer on OpenArm hardware, bringing simulated motions onto physical arms.
   images:
-    - path: /assets/images/openarm-drumming-simulation.png
+    - path: /assets/images/openarm-drumming-simulation.webp
       alt: Two simulated OpenArm arms holding drumsticks at a full drum kit, with interactive drum controls.
       caption: OpenArm drumming simulation
-    - path: /assets/images/mujoco-dynamics-simulator.png
+    - path: /assets/images/mujoco-dynamics-simulator.webp
       alt: CERAS’s custom MuJoCo simulator showing a draft arm, motion controls, and joint torque plots.
       caption: Custom dynamics simulator · Arm motion and joint torque analysis
 - id: drummer
@@ -22,9 +39,9 @@
     - Took the robot from build to completion in under two academic quarters.
     - Brought robotic drumming to the stage in live campus concerts.
   images:
-    - path: /assets/images/first-concert-team.jpg
+    - path: /assets/images/first-concert-team.webp
       alt: The CERAS team and musicians gathered with the robotic drummer after its first concert.
       caption: The team after our first robotic drummer concert
-    - path: /assets/images/drumming-system.jpg
+    - path: /assets/images/drumming-system.webp
       alt: The completed CERAS robotic drummer in the workshop with its acoustic drum kit.
       caption: The original six-arm drummer · Custom-built for an acoustic drum kit

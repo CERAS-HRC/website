@@ -2,7 +2,7 @@
   status: In development
   description: Developing custom arms and controls for a humanoid robot that can play music with people.
   url: /plan/
-  image: /assets/images/mujoco-dynamics-simulator.png
+  image: /assets/images/mujoco-dynamics-simulator.webp
   image_alt: CERAS's custom MuJoCo dynamics simulator showing an extremely basic draft arm, motion controls, and joint torque plots.
   image_type: simulation
   image_caption: Dynamics simulation · Basic draft arm
@@ -10,6 +10,6 @@
   status: Built
   description: A six-arm robot that plays an acoustic drum kit. Built by our team and performed on campus.
   url: /progress/#drummer
-  image: /assets/images/drumming-system.jpg
+  image: /assets/images/drumming-system.webp
   image_alt: The completed CERAS drummer in the workshop with its acoustic drum kit.
   image_type: photo

@@ -271,8 +271,8 @@ figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap
 .work-bullets li + li { margin-top: 8px; }
 .work-bullets li::marker { color: var(--blue); }
 .work-gallery { display: flex; flex-wrap: wrap; gap: 24px; align-items: start; }
-.work-visual { width: 320px; max-width: 100%; margin: 0; }
-.work-visual img { width: auto; max-width: 100%; height: auto; max-height: 240px; border: 1px solid var(--line); }
+.work-visual { width: min-content; max-width: 100%; margin: 0; }
+.work-visual img { display: block; width: auto; max-width: none; height: 240px; border: 1px solid var(--line); }
 .work-visual figcaption { display: block; font-size: 12px; padding-top: 8px; }
 .work-history > .page-actions { margin-top: 28px; padding-left: 42px; }
 @media (max-width: 700px) {
@@ -281,6 +281,8 @@ figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap
   .work-entry { padding-left: 24px; padding-bottom: 36px; }
   .work-entry h3 { font-size: 28px; }
   .work-history > .page-actions { padding-left: 34px; }
+  .work-visual { width: 100%; }
+  .work-visual img { width: 100%; height: auto; }
 }
 
 .mission-mark { display: block; width: auto; height: 128px; margin: 0 auto 28px; }

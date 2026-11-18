@@ -2,7 +2,7 @@
 
 ## Homepage single side-plate emblem (current)
 
-Saved asset: `assets/images/humanoid-shoulder-plate.png`. Edited with built-in `image_gen`; restores both plain shoulder speakers and places one emblem on the silver side plate. Keeps the larger homepage layout and transparent background.
+Saved asset: `assets/images/humanoid-shoulder-plate.webp`. Edited with built-in `image_gen`; restores both plain shoulder speakers and places one emblem on the silver side plate. Keeps the larger homepage layout and transparent background.
 
 Final prompt:
 
@@ -10,7 +10,7 @@ Final prompt:
 
 ## Homepage shoulder emblems and larger cutout
 
-Saved asset: `assets/images/humanoid-shoulder-emblems.png`. Edited with built-in `image_gen` from the transparent screen-emblem version, using the hand emblem reference. This is the current homepage asset.
+Saved asset: `assets/images/humanoid-shoulder-emblems.webp`. Edited with built-in `image_gen` from the transparent screen-emblem version, using the hand emblem reference. This is the current homepage asset.
 
 Final prompt:
 
@@ -18,7 +18,7 @@ Final prompt:
 
 ## Homepage transparent robot with screen emblem
 
-Saved asset: `assets/images/humanoid-hand-transparent.png`. Edited with the built-in `image_gen` tool from `humanoid-study.png`, with `assets/brand/ceras-hand.svg` rendered as a supporting emblem reference. The original render is retained.
+Saved asset: `assets/images/humanoid-hand-transparent.webp`. Edited with the built-in `image_gen` tool from `humanoid-study.webp`, with `assets/brand/ceras-hand.svg` rendered as a supporting emblem reference. The original render is retained.
 
 Final prompt:
 
@@ -28,9 +28,9 @@ Created with the built-in `image_gen` tool. These are illustrative concepts, not
 
 ## Home: humanoid study
 
-Saved asset: `assets/images/humanoid-study.png` (1448 × 1086).
+Saved asset: `assets/images/humanoid-study.webp` (1448 × 1086).
 
-Reference: `assets/images/robot-cad.png`, used only for design inspiration.
+Reference: `assets/images/robot-cad.webp`, used only for design inspiration.
 
 Final prompt:
 
@@ -38,7 +38,7 @@ Final prompt:
 
 ## Mission: music and physical interaction
 
-Saved asset: `assets/images/music-interaction.png` (1536 × 1024).
+Saved asset: `assets/images/music-interaction.webp` (1536 × 1024).
 
 Final prompt:
 
