@@ -1,7 +1,8 @@
 ---
 layout: join
 page_class: join
-title: Join us
+title: Join Us
 permalink: /join-us/
-headline: Introduce yourself.
+headline: Join Us
+intro: say hello
 ---
